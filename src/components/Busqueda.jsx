@@ -7,7 +7,7 @@ export default function Busqueda() {
   const handleSubmit = (e) => {
     e.preventDefault();
     var searchText = document.getElementById("search").value;
-    navigate(`/filtro/${searchText}`);
+    navigate(`/ReactApp/filtro/${searchText}`);
   };
 
   return (

@@ -22,7 +22,7 @@ export default function Principal() {
         <Routes>
           <Route exact path="/ReactApp/" element={<TarjetasGrid />} />
           <Route exact path="/ReactApp/Detalle/:id" element={<Detalle />} />
-          <Route path="/filtro/:search?" element={<Filtro />} />
+          <Route path="/ReactApp/filtro/:search?" element={<Filtro />} />
         </Routes>
       </Router>
     </>
