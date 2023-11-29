@@ -20,8 +20,8 @@ export default function Principal() {
         <Cabecera />
         <Busqueda />
         <Routes>
-          <Route exact path="/" element={<TarjetasGrid />} />
-          <Route exact path="/Detalle/:id" element={<Detalle />} />
+          <Route exact path="/ReactApp/" element={<TarjetasGrid />} />
+          <Route exact path="/ReactApp/Detalle/:id" element={<Detalle />} />
           <Route path="/filtro/:search?" element={<Filtro />} />
         </Routes>
       </Router>

@@ -23,7 +23,7 @@ export default function Detalle() {
   // Resto de tu lógica aquí
   return (
     <div style={{height: '83.4vh', backgroundColor: '#86785a', boxShadow: 'inset 0 10px 30px #5f5d54'}}>
-        <Link className="link"  to="/" style={{padding: '5px 30px', backgroundColor: '#4e6e52', color: 'white', textDecoration: 'none', borderRadius: '0 10px 10px 0'}}>
+        <Link className="link"  to="/ReactApp/" style={{padding: '5px 30px', backgroundColor: '#4e6e52', color: 'white', textDecoration: 'none', borderRadius: '0 10px 10px 0'}}>
             Volver
         </Link>
 
@@ -32,7 +32,7 @@ export default function Detalle() {
           <h4>ID del monstruo: {id}</h4>
           <h2>{monstruoSeleccionado.name}</h2>
           
-          <img src={"/icons/"+monstruoSeleccionado.games[0].image} alt="" style={{ width: '400px' }}/>
+          <img src={"../icons/"+monstruoSeleccionado.games[0].image} alt="" style={{ width: '400px' }}/>
           <p>Type: {monstruoSeleccionado.type}</p>
           <p>Is Large: {monstruoSeleccionado.isLarge ? 'Yes' : 'No'}</p>
           <p>Elements: {monstruoSeleccionado.elements}</p>
