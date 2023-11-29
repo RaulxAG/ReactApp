@@ -1,0 +1,73 @@
+.producto {
+  list-style: none;
+  background-color: #ECE3CE;
+  box-shadow: 0 0 15px 5px #333;
+  padding: 5vh;
+  width: 200px;
+  margin: 10px auto;
+  border-radius: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .15s linear;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.producto:active {
+  background-color: #b3ac9b;
+}
+
+.producto img {
+  margin-top: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 5%;
+}
+
+.producto__titulo {
+  margin: 20px auto;
+  width: 70%;
+}
+
+.producto__precio {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.producto p {
+  margin: 0 auto;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.botonMostrar {
+  color: white;
+  background-color: darkolivegreen;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid darkolivegreen;
+  transition: 0.3s linear;
+}
+
+.botonMostrar:hover {
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  border: 2px solid darkgreen;
+  background-color: lightgreen;
+}
+
+.botonMostrar:active {
+  cursor: pointer;
+  background-color: darkgreen;
+  border-color: lightgreen;
+}
+
+h5 {
+  color: #333;
+}
