@@ -32,7 +32,7 @@ export default function Detalle() {
           <h4>ID del monstruo: {id}</h4>
           <h2>{monstruoSeleccionado.name}</h2>
           
-          <img src={"../../public/icons/"+monstruoSeleccionado.games[0].image} alt="" style={{ width: '400px' }}/>
+          <img src={"/icons/"+monstruoSeleccionado.games[0].image} alt="" style={{ width: '400px' }}/>
           <p>Type: {monstruoSeleccionado.type}</p>
           <p>Is Large: {monstruoSeleccionado.isLarge ? 'Yes' : 'No'}</p>
           <p>Elements: {monstruoSeleccionado.elements}</p>
